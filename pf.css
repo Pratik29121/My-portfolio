@@ -25,7 +25,7 @@ background-image:repeating-linear-gradient(135deg, rgba(0, 0, 0, .1) 0px, rgba(0
     position:relative;
 }
 #img img{
-    height: 120px;
+    height: 125px;
     width: 180px;
     border:1px solid rgb(79 195 247);
     position:absolute ;
