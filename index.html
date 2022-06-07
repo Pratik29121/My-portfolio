@@ -154,8 +154,9 @@
                         <img src="my portfolio.png">
                         </div>
              <div id="h2">
-    <span id="h3">Device Info</span>     
-        <a href="https://pratik29121.github.io/Device-information/" id="h4">Visit Code</a>        
+    <span id="h3">Device Info</span>
+       <a id="h4" href="https://pratik29121.github.io/Device-information/">Visit Code</a>            
+                            
                         
                         <img src="device information.jpg.png">
                         </div>
@@ -188,9 +189,9 @@
            
              <div id="myid">
                  <div id="icons">
-            <i class="ri-github-fill f"></i>
-            <i class="ri-linkedin-fill f"></i>
-            <i class="ri-instagram-fill f"></i>
+                    <a href ="https://github.com/Pratik29121"> <i class="ri-github-fill f"> </i>  </a>
+                    <a href ="https://www.linkedin.com/in/pratik-suryawanshi-b5bb99200/"><i class="ri-linkedin-fill f"></i></a>
+                    <a href ="https://www.instagram.com/pratik_suryawanshi_2912/"><i class="ri-instagram-fill f"></i></a>
             </div>
             <div id="mail">-pratiksurya2912@gmail.com</div>
             <div id="lp">
@@ -219,10 +220,6 @@
             
             
              <div id="menu">
-
-                
-
-                
         <div id="b"><a href="#home">Home<br><br></a></div>
         <div id="b"><a href="#about">About<br><br></a></div>
         <div id="b"><a href="#myskills">My Skills<br><br></a></div>
@@ -237,14 +234,13 @@
          sideMenu.style.width = "100vw";
       
     }
-
     function back() {
         sideMenu.style.width = "0"
         sideMenu.style.height = "0";
          
     }document.getElementById("menu").addEventListener("click", e=>e.stopPropagation(), false)
 
-document.getElementById("me").addEventListener("click",  false)
+document.getElementById("me").addEventListener("click", e=>e.stopPropagation(), false)
     document.documentElement.addEventListener("click", function(e) {
         back()
        e.preventDefault() 
